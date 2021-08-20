@@ -2,22 +2,26 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Test">
-    <test name="Test">
+<suite name="SuiteTest">
+
+    <test name="userShoppingTest">
         <groups>
             <define name="Regression1">
                 <include name="Regression1"/>
-
             </define>
+
             <define name="Regression2">
                 <include name="Regression2"/>
             </define>
+
             <run>
-                <include name="Regression2"/>
+                <include name="Regression1"/>
             </run>
         </groups>
+
         <classes>
             <class name="Main"/>
         </classes>
+
     </test>
 </suite>
