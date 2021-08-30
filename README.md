@@ -23,7 +23,6 @@ This repositoty contains tests for shopping website: http://tutorialsninja.com/d
 * Page Object Model
 * Fluent interface.
 
-# Browsers
 The code is valid for following browsers:
 * Chrome
 * Opera

@@ -8,16 +8,16 @@ import static DatabaseConnection.dbConnection.getConnection;
 
 public class dbObjects {
 
-    static String firstName;
-    static String lastName;
-    static String phone;
-    static StringBuilder email;
-    static String password;
-    static String address;
-    static String country;
-    static String state;
-    static String city;
-    static int zip;
+    private static String firstName;
+    private static String lastName;
+    private static String phone;
+    private static StringBuilder email;
+    private static String password;
+    private static String address;
+    private static String country;
+    private static String state;
+    private static String city;
+    private static int zip;
 
     public dbObjects() {
 

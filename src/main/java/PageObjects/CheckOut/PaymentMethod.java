@@ -7,8 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class PaymentMethod {
 
-    public SelenideElement termsNConditionsCheckbox = $(By.xpath("//input[@type='checkbox' and @name='agree']"));
-
-    public SelenideElement continueButton = $(By.id("button-payment-method"));
+    public SelenideElement termsNConditionsCheckbox = $(By.xpath("//input[@type='checkbox' and @name='agree']")),
+            continueButton = $(By.id("button-payment-method"));
 
 }

@@ -7,8 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class AfterRegistrationPage {
 
-    public SelenideElement laptopsNnotebooks = $(By.xpath("//a[text()='Laptops & Notebooks']"));
-
-    public SelenideElement showAllLaptops = $(By.xpath("//a[text()='Show All Laptops & Notebooks']"));
+    public SelenideElement laptopsNnotebooks = $(By.xpath("//a[text()='Laptops & Notebooks']")),
+            showAllLaptops = $(By.xpath("//a[text()='Show All Laptops & Notebooks']"));
 
 }
