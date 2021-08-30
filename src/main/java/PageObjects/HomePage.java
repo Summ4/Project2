@@ -7,8 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class HomePage {
 
-    public SelenideElement myAccount = $(By.xpath("//span[text()='My Account']"));
-
-    public SelenideElement register = $(By.xpath("//a[text()='Register']"));
+    public SelenideElement myAccount = $(By.xpath("//span[text()='My Account']")),
+            register = $(By.xpath("//a[text()='Register']"));
 
 }
