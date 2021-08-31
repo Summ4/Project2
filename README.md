@@ -1,6 +1,6 @@
 # Project2
 
-This repositoty contains tests for shopping website: http://tutorialsninja.com/demo/
+This repository contains tests for shopping website: http://tutorialsninja.com/demo/
 
 # How to use:
 
@@ -23,7 +23,7 @@ This repositoty contains tests for shopping website: http://tutorialsninja.com/d
 * Page Object Model
 * Fluent interface.
 
-The code is valid for following browsers:
+# The code is valid for following browsers:
 * Chrome
 * Opera
 * Microsoft Edge
